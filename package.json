@@ -10,10 +10,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "mysql2": "^3.15.3",
     "nodemon": "^3.1.10"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/John-Patrick-Russel-Lalo/backend.git"
