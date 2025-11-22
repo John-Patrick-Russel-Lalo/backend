@@ -2,6 +2,7 @@ import express from "express"
 import 'dotenv/config.js'
 import bookRoutes from "./routers/bookRoutes.js"
 import studentRoutes from "./routers/studentRoutes.js"
+import usersRoutes from "./routers/usersRoutes.js"
 import cors from 'cors';
 
 const app = express()
@@ -33,3 +34,4 @@ app.use((req, res, next) => {
 
 app.use('/book', bookRoutes);
 app.use('/student', studentRoutes);
+app.use('/user', usersRoutes);
